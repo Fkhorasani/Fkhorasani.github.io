@@ -79,7 +79,7 @@ body{
         max-width: 30vw;
     }
     .desc{
-        max-width: 60vw;
+        max-width: 75vw;
         padding-left: 10vw;
     }
     .name{
@@ -99,6 +99,11 @@ body{
   @media screen and (max-width: 600px) {
     #mouse-scroll {
       display: none;
+    }
+    .desc{
+        max-width: 90vw;
+        text-align: justify;
+        padding-left: 10vw;
     }
   }
     
