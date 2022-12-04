@@ -212,17 +212,23 @@ body{
 
 .card-isi{
     min-height: fit-content;
-    height: 75vh;
+    min-height: 75vh;
     overflow-y: hidden;
 }
 
 .card-tulis{
-    height: 70%;
+    min-height: 50vh;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
 }
+
+.card-tulis h5, .card-tulis a, .card-tulis .links{
+    min-height: fit-content;
+    overflow-y: hidden;
+}
+
 
 .card-tulis .list-inside{
     height: 50%;
